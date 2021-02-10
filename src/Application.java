@@ -19,6 +19,7 @@ public class Application extends Frame implements WindowListener {
 		setLocationRelativeTo(null);
 		this.add(vue);
 		this.addWindowListener(this);
+		this.setTitle("Button clicker simulator 2021");
 		this.pack();
 		this.setVisible(true);
 	}
